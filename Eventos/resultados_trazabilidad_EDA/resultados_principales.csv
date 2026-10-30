@@ -1,0 +1,6 @@
+﻿Aspecto,Resultado observado
+Flujo de inicio a fin,11/11 pasos con evidencia
+Publicación y recepción,1002 publicaciones correlacionadas; 19 relaciones resumidas
+Activación por segmentos,6/6 activaciones comparables; diferencia absoluta máxima 17.77 ms
+BeatReached,488 publicaciones; 4 consumidores; 1 omisiones por exceeded_max_lateness
+Cierre de experiencia,"ExperienceCompleted, resultados y retorno al menú observados"

@@ -1,0 +1,12 @@
+﻿Etapa,Evidencia observada,Componentes principales,Estado,Registros de referencia
+Solicitud de experiencia,experience_request_created; publish,ExperienceLaunchButton,Verificado en esta captura,seq 27 / linea 293; seq 33 / linea 351
+Recepción y validación,experience_request_received; request_validation,AppStateMachine; SceneFlowManager,Verificado en esta captura,seq 35 / linea 371; seq 36 / linea 383; seq 44 / linea 547
+Inicio de carga y preparación,scene_load_additive; full_sequence_prepare; scene_prepare; preloader,AlexThrowPool; BulletPool; EnemyPool; ExperienceSceneBootstrap; FullExperienceDirector; JeremyEnemyPool; y 4 más,Verificado en esta captura,seq 45 / linea 562; seq 48 / linea 597; seq 53 / linea 631 (+59 registros)
+Preparación completada,segment_scene_prepared; full_sequence_prepare,ExperienceSceneBootstrap; FullExperienceDirector,Verificado en esta captura,seq 97 / linea 919; seq 112 / linea 1039; seq 139 / linea 1269 (+4 registros)
+ExperienceReady publicado por AppStateMachine,publish,AppStateMachine,Verificado en esta captura,seq 147 / linea 1329
+ExperienceReady recibido por SequenceDirector,receive,SequenceDirector,Verificado en esta captura,seq 152 / linea 1383
+Solicitud de reproducción,play_request,SequenceDirector,Verificado en esta captura,seq 154 / linea 1405
+Estado observado del PlayableDirector,play_state_observed,SequenceDirector,Verificado en esta captura,seq 155 / linea 1417
+Activación y desactivación de segmentos,publish; receive; handler_returned; handler_dispatch_returned; segment_active; segment_deactivation_requested,ExperienceSceneBootstrap; FullExperienceDirector,Verificado en esta captura,seq 193 / linea 1920; seq 194 / linea 1929; seq 209 / linea 2200 (+93 registros)
+Final de canción,playback_finished; publish; song_finished_received,SceneFlowManager; SequenceDirector,Verificado en esta captura,seq 9224 / linea 99665; seq 9225 / linea 99670; seq 9227 / linea 99688
+"Cierre, resultados y retorno al menú",publish; receive; handler_returned; run_result_published; results_received; handler_dispatch_returned; transition_to_menu; ended,FullExperienceDirector; HighScoreSystem; ResultsScreenController; SceneFlowManager; ScoreSystem; none,Verificado en esta captura,seq 9296 / linea 100476; seq 9297 / linea 100487; seq 9298 / linea 100498 (+8 registros)
